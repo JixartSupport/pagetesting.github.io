@@ -407,15 +407,15 @@ h2 {
         text-align: center;
         margin: auto;
         padding: 0;
-        max-width: 500px;
+        width: 100%;
         
 
     }
 
     #page_title {
-        font-size: 42px;
+        font-size: 32px;
         transition: .2s;
-        line-height: 54.6px;
+        line-height: 41.6px;
         
     }
 
