@@ -17,10 +17,6 @@ body {
 
 .page_title_container {
     position: relative;
-    background-image: url(img/headerBackground.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
     background-color: #F2C94C;
     height: 480px;
     display: flex;
@@ -35,13 +31,20 @@ body {
     height: 70px;
 }
 
+.header_background {
+    position: absolute;
+    right: 0px;
+    bottom: -7px;
+    width: 80vw;
+
+}
 #page_title_center {
     position: relative;
     padding-left: 200px;
     margin-top: auto;
     margin-bottom: auto;
     display: block;
-    width: 900px;
+    width: 870px;
 }
 
 #page_title {
@@ -303,6 +306,28 @@ h2 {
 
 @media only screen and (max-width: 1100px) {
 
+    .header_article {
+        position: absolute;
+        bottom: 100px;
+        margin-left: 100px;
+        height: 70px;
+    }
+
+    .page_title_container {
+        height: auto;
+        padding-top: 70px;
+        padding-bottom: 220px;
+        
+    }
+
+    #page_title_center {
+        text-align: center;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+    }
+
+
     .section3_cards {
         height: 460px;
     }
@@ -338,8 +363,16 @@ h2 {
         margin: auto;
     }
 
+    .header_background {
+        position: absolute;
+        right: 0px;
+        bottom: -7px;
+        width: 100vw;
+    
+    }
+
     .header_article {
-        display: none;
+        height: 50px;
     }
 
     .offre-header__recommended {
@@ -396,21 +429,7 @@ h2 {
 
     }
 
-    .page_title_container {
-        height: auto;
-        padding-top: 70px;
-        padding-bottom: 220px;
-        
-    }
 
-    #page_title_center {
-        text-align: center;
-        margin: auto;
-        padding: 0;
-        width: 100%;
-        
-
-    }
 
     #page_title {
         font-size: 32px;
