@@ -365,15 +365,42 @@ h2 {
 
     .header_background {
         position: absolute;
-        right: 0px;
+        right: -0px;
         bottom: -3px;
         width: 100vw;
     
     }
 
     .header_article {
+        bottom: 140px;
+        margin-left: 40px;
         height: 50px;
     }
+
+    
+    #page_title {
+        font-size: 32px;
+        transition: .2s;
+        line-height: 41.6px;
+        
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    
+    .navbar_logo {
+        margin: auto;
+    }
+
+    .header_background {
+        position: absolute;
+        right: -100px;
+        bottom: -3px;
+        width: 170vw;
+    
+    }
+
+
 
     .offre-header__recommended {
         display: none;
@@ -431,12 +458,6 @@ h2 {
 
 
 
-    #page_title {
-        font-size: 32px;
-        transition: .2s;
-        line-height: 41.6px;
-        
-    }
 
     .section3_title {
         font-size: 32px;
