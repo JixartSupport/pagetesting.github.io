@@ -3,222 +3,148 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="https://www.midi-olympique.fr/favicon-32x32.png"
+            href="https://www.petitbleu.fr/favicon-32x32.png"
         >
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="https://www.midi-olympique.fr/favicon-16x16.png"
+            href="https://www.petitbleu.fr/favicon-16x16.png"
         >
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
-            crossorigin="anonymous"
-        >
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <link
             rel="stylesheet"
             href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
             integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
             crossorigin="anonymous"
         >
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+            crossorigin="anonymous"
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;@600;@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
         <meta name="description" content="">
         <title>Document</title>
     </head>
     <body>
-        <nav class="navbar sticky-top navbar-light">
-            <img
-                class="navbar_logo"
-                src="img/logoMo.png"
-                alt=""
-                width="150"
-            >
-        </nav>
-        <div class="page_title_container">
-            <div class="row section1_row">
-                <div class="col-lg-6 main_left_section_container">
-                    <div class="main_left_section">
-                        <div class="main_left_section_title">Besoin d’évasion ?</div>
-                        <div class="main_left_section_sub_title">Abonnez-vous et tentez de gagner</div>
-                        <div class="main_left_section_button">un séjour pour 2 personnes</div>
+        <div class="section1_container container_fluid">
+            <div class="row section1_sub_container no-gutters">
+                <div class="col-lg-6 section1_left_column">
+                    <div class="section1_left_column_sub_container">
+                        <img src="img/logo-pb.svg" class="left_column_logo" alt="">
+                        <span class="left_column_mini_title">
+                            ABONNEMENT NUMÉRIQUE
+                        </span>
+                        <span class="left_column_title">
+                            À l'occasion du printemps,
+                            Le Petit Bleu d'Agen
+                            vous fait une fleur
+                        </span>
+                        <span class="left_column_description">
+                            Pour tout savoir sur Agen et sa région,
+                            abonnez-vous à prix doux
+                        </span>
+                        <a href="" class="left_column_button_container">
+                            <button class="left_column_button">
+                                J'en profite
+                            </button>
+                        </a>
                     </div>
-                    <img src="img/badge.png" class="badge_image" alt="">
                 </div>
-                <div class="col-lg-6">
-                    <div class="page_title_info_container">
-                        <div class="offre-2 offres offre--active">
-                            <div class="offre-titles">
-                                <h3>Offre Numérique</h3>
+                <div class="col-lg-6 section1_right_column">
+                    <img src="img/background.png" class="section1_image" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section2_container container_fluid">
+            <div class="section2_title_container">
+                <div class="section2_title">Les avantages de votre abonnement</div>
+                <img src="img/arrow.svg" class="section2_arrow" alt="">
+            </div>
+            <div class="row section2_sub_container no-gutters">
+                <div class="col-lg-5 section2_left_column">
+                    <div class="offre-2 offres offre--active">
+                        <div class="offre-titles">
+                            <h3>Numérique</h3>
+                            <h2>Votre journal numérique</h2>
+                        </div>
+                        <div class="offre-contents">
+                            <div class="price">
+                                3€ = 3 mois
                             </div>
-                            <div class="offre-contents">
-                                <div class="price">
-                                    0,99€
-                                    <span class="price_month">/mois</span>
+                            <img class="image_offre" src="img/card_illustration.png" alt="">
+                            <a target="_blank" href="" class="btn btn-block btn-abo-primary">J'en profite</a>
+                            <span class="sans_engagement">Sans engagement</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 section2_right_column">
+                    <div class="section2_right_column_sub_container">
+                        <div class="section2_cards">
+                            <img class="images_avantages" src="img/star.png" alt="">
+                            <div class="section3_cards_info_container">
+                                <div class="cards_tilte">
+                                    Les éditions numériques en avant première
                                 </div>
-                                <h4>le premier mois</h4>
-                                <a href="https://abonnement.midi-olympique.fr/coordonnees.html?prodref=DM.12.WDB.WEB18051.2&giftOffer=false" class="btn btn-block btn-abo-primary">Je m'abonne</a>
+                                <div class="cards_description">
+                                    Profitez de votre journal dès 4h30 du matin et accédez à l'ensemble des contenus réservés aux abonnés sur notre site <a href="" class="card_link">petitbleu.fr</a>
+                                </div>
                             </div>
-                            <div class="check-boxe">
-                                <ul class="offer-check">
-                                    <li>
-                                        Accès à tous les articles du site et de l’application
-                                    </li>
-                                    <li>
-                                        Publicité limitée
-                                    </li>
-                                    <li>
-                                        Journal en version numérique dès 20h30 la veille
-                                    </li>
-                                    <li>
-                                        <strong>Une chance de gagner un séjour pour 2 personnes</strong>
-                                    </li>
-                                </ul>
+                        </div>
+                        <div class="section2_cards">
+                            <img class="images_avantages" src="img/phone.png" alt="">
+                            <div class="section3_cards_info_container">
+                                <div class="cards_tilte">
+                                    Le journal partout avec vous
+                                </div>
+                                <div class="cards_description">
+                                    Les actualités de votre région partout avec vous, grâce a application Le Petit Bleu sur tablette et smartphone (iOs et Android)
+                                </div>
                             </div>
-                            <img src="img/valise_rouge.png" class="valise_rouge" alt="">
-
+                        </div>
+                        <div class="section2_cards">
+                            <img class="images_avantages" src="img/plus.png" alt="">
+                            <div class="section3_cards_info_container">
+                                <div class="cards_tilte">
+                                    Des suppléments hebdomadaires
+                                </div>
+                                <div class="cards_description">
+                                    Chaque dimanche vos suppléments MiDi et TV magazine + des hors séries numériques, l'actualité décrypté par la rédaction
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 section2_left_container">
-                <div class="section2_left_container_title">
-                    Séjour à gagner d’une valeur de 670€ pour deux personnes dans l’un des établissements Mer & Golf
+            <footer id="footer_container">
+                <span id="footer_information">
+                    <span class="footer_information_spacing"> Le Petit Bleu</span>
+                    <span class="footer_information_spacing footer_information_bar">|</span>
+                    <span class="footer_information_spacing">Tél : 05 53 77 06 70 (Prix d'un appel local - numéro non surtaxé)</span>
+                </span>
+                <div id="social_media_icons_container">
+                    <a target="_blank" href="mailto:abonnements@petit-bleu.fr">
+                        <i class="fas fa-envelope social_media_icons"></i>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/lepetitbleudagen/">
+                        <i class="fab fa-facebook-f social_media_icons"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/petitbleuagen">
+                        <i class="fab fa-twitter social_media_icons"></i>
+                    </a>
                 </div>
-                <a class="section2_left_container_link" href="#section3">
-                    En savoir plus
-                </a>
-            </div>
-            <div class="col-lg-6"></div>
-        </div>
-        <div class="section3_container" id="section3">
-            <div class="section3_subcontainer">
-                <div class="section3_title">
-                    7 nuits pour deux personnes
-                </div>
-                <div class="section3_description">
-                    <span class="section3_description_mediumFont">Un séjour d’une semaine</span>
-                    (7 nuits) pour deux personnes à gagner au choix parmi les résidences
-                    <a class="section3_description_mediumFont description_link">Mer & Golf *</a>
-                    <span class="section3_description_mediumFont">, accès illimité aux espaces Loisirs</span>
-                    des établissements.
-                </div>
-                <a href="" class="description_button">Je m'abonne</a>
-                <img src="img/valise_bleu.png" class="valise_bleu_section3" alt="">
-                <img src="img/valise_rouge.png" class="valise_rouge_section3" alt="">
-            </div>
-        </div>
-        <div class="section3_dates">*hors 9 juillet au 29 septembre 2022 pour les établissements de bords de mer, et hors vacances de noël 2022 et de février 2023 pour La Mongie.</div>
-        <section id="articles">
-            <div class="container">
-                <div class="row">
-                    <div class="w-100 text-center">
-                        <h2 class="py-4 mx-5" id="articles_title">Découvrez les derniers articles de
-                            <a class="articles_title_link" target="_blank" href="https://www.midi-olympique.fr">midi-olympique.fr</a>
-                        </h2>
-                    </div>
-                    <div class="mb-5 d-flex justify-content-around flex-wrap w-100" data-simply-list="news" data-simply-data="newsList">
-                        <template>
-                            <div class="article article1">
-                                <a
-                                    href="#"
-                                    data-simply-field="link"
-                                    data-simply-content="fixed"
-                                    target="_blank"
-                                >
-                                    <div class="image">
-                                        <img src="" data-simply-field="enclosure.link">
-                                    </div>
-                                    <div class="text">
-                                        <h4 data-simply-field="title">title</h4>
-                                    </div>
-                                </a>
-                            </div>
-                        </template>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <footer id="footer_container">
-            <span id="footer_information">
-                <span class="footer_information_spacing">Midi Olympique</span>
-                <span class="footer_information_spacing footer_information_bar">|</span>
-                <span class="footer_information_spacing">Avenue Jean Baylet 31095 Toulouse cedex 9</span>
-                <span class="footer_information_spacing footer_information_bar">|</span>
-                <span class="footer_information_spacing"> Tél : 09 77 40 15 13  (Prix d'un appel local - numéro non surtaxé</span>
-            </span>
-            <div id="social_media_icons_container">
-                <a target="_blank" href="https://www.facebook.com/midi.olympique1">
-                    <i class="fab fa-facebook-f social_media_icons"></i>
-                </a>
-                <a target="_blank" href="https://twitter.com/midi_olympique">
-                    <i class="fab fa-twitter social_media_icons"></i>
-                </a>
-            </div>
-        </footer>
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-        <script src="https://cdn.simplyedit.io/1/simply-edit.js" data-api-key="codepen"></script>
-        <script type="text/javascript">
-            function loadRSS(url, datasource) {
-                fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url))
-                    .then(function (response) {
-                        if (response.ok) {
-                            return response.json();
-                        }
-                        throw new Error('Could not fetch rss');
-                    })
-                    .then(function (data) {
-                        editor.addDataSource(datasource, {
-                            load: data.items,
-                            save: function (stash) {
-                                // called just before saving the page data in SimplyEdit
-                                // stash contains the current content of the list
-                            },
-                            get: function () {
-                                // returns the data you would like to save in the data.json
-                                return url;
-                            },
-                            applyOnce: true // workaround to prevent the datalist from 
-                            // being applied multiple times when dragging etc.
-                        });
-                    });
-            }
-    
-            loadRSS('https://www.midi-olympique.fr/rss.xml', 'newsList');
-        </script>
-        <script src="//tag.aticdn.net/558585/smarttag.js"></script>
-        <script>
-    
-        var tag = new ATInternet.Tracker.Tag();
-        
-        tag.page.set({
-        
-        name:'landing-offre-fil-rouge-num-2021',
-        
-        chapter1:'Abonnement',
-        
-        chapter2:'Offres',
-        
-        level2:80
-        
-        });
-        
-        tag.dispatch();
-        </script>
-    </body>
-</html>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+        </body>
+    </html>
